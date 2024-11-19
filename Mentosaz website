@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menna's Navy Website</title>
+    <style>
+        /* Body styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #001f3d; /* Navy blue background */
+            color: white;
+        }
+
+        /* Header styling */
+        header {
+            background-color: #003366; /* Navy blue header */
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            border-bottom: 4px solid #0066cc; /* Lighter blue border */
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2em;
+        }
+
+        /* Navigation styling */
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        nav a {
+            margin: 0 20px;
+            color: #66a3ff; /* Light blue color for links */
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+
+        nav a:hover {
+            color: white; /* White color on hover */
+            text-decoration: underline;
+        }
+
+        /* Section styling */
+        section {
+            padding: 30px;
+            margin: 20px;
+            background-color: #003366; /* Navy blue */
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        section h2 {
+            font-size: 2em;
+            color: #66a3ff; /* Light blue color for section headers */
+        }
+
+        section p, section ul {
+            font-size: 1.2em;
+        }
+
+        /* Footer styling */
+        footer {
+            text-align: center;
+            background-color: #003366; /* Navy blue footer */
+            color: white;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            border-top: 4px solid #0066cc; /* Lighter blue border */
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Menna's Website</h1>
+        <p>Explore Menna's world and projects!</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Menna</h2>
+        <p>Hello! I'm Menna, a web developer who enjoys creating clean and functional websites. I focus on designing user-friendly experiences that are both professional and visually appealing.</p>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <p>Here are some of the projects I've worked on:</p>
+        <ul>
+            <li>Project 1: Portfolio Website</li>
+            <li>Project 2: E-commerce Site with Custom UI</li>
+            <li>Project 3: Data Analytics Dashboard</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you'd like to get in touch, feel free to reach out:</p>
+        <ul>
+            <li>Email: menna@example.com</li>
+            <li>LinkedIn: <a href="https://linkedin.com/in/menna" target="_blank" style="color: #66a3ff;">linkedin.com/in/menna</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Menna. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+
